@@ -9,8 +9,8 @@ O tamanho da maior subsequência comum entre as duas Strings.
 
 | Exemplo de Entrada | Exemplo de Saída|
 | ---|--- |
-| abcdef<br />cdofhij|
-|TWO<br />FOUR|
-|abracadabra<br />open
-|Hey This java is hot<br />Java is a new paradigm 2<br />1<br />5<br />7 |
+| abcdef<br />cdofhij|2|
+|TWO<br />FOUR|1|
+|abracadabra<br />open|5|
+|Hey This java is hot<br />Java is a new paradigm|7 |
 
