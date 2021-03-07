@@ -14,7 +14,7 @@ Alguns exemplos para ficar mais claro:
     1. parteInicial = 'aaaa', parteFinal = 'a'. Como 'aaaa' termina em 'a', imprimimos 'aaaa'
 
 ## Mais casos de teste
-Para verificar se o seu código está funcionando, tente os casos abaixo:
+Para verificar se o seu código está funcionando, tente os casos abaixo, além dos exemplos passados no enunciado:
 
 | Exemplo de Entrada | Exemplo de Saída|
 | ---|--- |
