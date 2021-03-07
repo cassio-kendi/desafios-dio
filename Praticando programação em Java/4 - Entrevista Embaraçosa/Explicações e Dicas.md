@@ -2,7 +2,7 @@
 O enunciado desta questão não está tão bem escrito. A regra geral é a seguinte: dada uma palavra, divida-a em uma duas, digamos parteInicial e parteFinal. Se a parteInicial terminar com a parteFinal, imprima a parteInicial. Se não houver uma forma de dividir a palavra para atender esta regra, imprima a própria palavra.
 Alguns exemplos para ficar mais claro:
 - sanduicheiche -> parteInicial = 'sanduiche', parteFinal = 'iche'. Como 'sanduiche' termina em 'iche', imprimimos a parteInicial, que é 'sanduiche'.
-- barrilarril -> parteInicial = 'barril', parteFinal = 'arril'. Como 'barril' termina em 'arril', imprimimos a parteInicial, que é 'sanduiche'.
+- barrilarril -> parteInicial = 'barril', parteFinal = 'arril'. Como 'barril' termina em 'arril', imprimimos a parteInicial, que é 'arril'.
 - sol -> Não há como dividir 'sol' de tal forma que a parteInicial termine com a parteFinal. Imprimimos 'sol'.
 
 É importante ressaltar que uma palavra pode ser dividida de mais de uma forma, e cada uma delas deve ser impressa. Exemplos:
