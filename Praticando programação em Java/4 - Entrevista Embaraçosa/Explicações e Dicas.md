@@ -13,6 +13,8 @@ Alguns exemplos para ficar mais claro:
     1. parteInicial = 'aaa', parteFinal = 'aa'. Como 'aaa' termina em 'aa', imprimimos 'aaa'
     1. parteInicial = 'aaaa', parteFinal = 'a'. Como 'aaaa' termina em 'a', imprimimos 'aaaa'
 
+Nestes casos em que uma palavra gera mais de uma saída, deve-se imprimir em ordem crescente de tamanho. Nos exemplos acima, 'aaa' vem antes de 'aaaa' e 'testete' vem antes de 'testetete'.
+
 ## Mais casos de teste
 Para verificar se o seu código está funcionando, tente os casos abaixo, além dos exemplos passados no enunciado:
 
