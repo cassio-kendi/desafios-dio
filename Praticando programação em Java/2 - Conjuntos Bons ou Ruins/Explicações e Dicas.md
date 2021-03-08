@@ -25,5 +25,5 @@ Neste desafio então, se você tiver em um conjunto 'giro' e 'giroscópio' e mai
 </details>
 <details> 
   <summary>Dica 5</summary>
-   Ao ordenar as palavras em ordem alfabética, é possível que uma palavra que venha depois na lista seja prefixo de uma anterior? Qual é a única possibilidade para uma palavra ser prefixo da outra em uma lista ordenada?
+   Ao ordenar as palavras em ordem alfabética, é possível que uma palavra que venha depois na lista seja prefixo de uma anterior? Como você pode verificar então se uma palavra é prefixo da outra em uma lista ordenada?
 </details>

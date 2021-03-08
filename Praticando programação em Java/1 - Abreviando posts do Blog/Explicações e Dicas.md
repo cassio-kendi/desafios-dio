@@ -1,6 +1,8 @@
 ## Explicações
 Utilizemos o exemplo dado pelo desafio: “hoje eu programei em python”. Python está em minúsculo porque as entradas são todas minúsculas. A saída esperada neste caso seria "h. eu p. em python": a palavra "hoje" pode ser reduzida para "h.", e a palavra "eu" e a palavra "em" não são reduzidas para "e." porque manteria o mesmo número de caracteres da palavra. Entre as palavras "programei" e "python", se abreviarmos "programei" por "p." estaremos reduzindo 7 caracteres, e se abreviarmos "python" por "p." estaremos reduzindo 4 caracteres. Logo, escolhemos a palavra que gera a maior redução, que é "programei"
+
 Mantendo neste exemplo, qual seria o resultado esperado se a entrada fosse "hoje eu programei em python python"? Repare que neste caso, se abreviarmos "python" para "p.", estaremos reduzindo o texto em 8 caracteres (4 caracteres * 2 palavras), o que é uma redução maior do que abreviar "programei" para "p.". Assim, o resultado seria "h. eu programei em p. p.", com "p." abreviando "python".
+
 Assim, as regras seriam:
 1. Se uma palavra tem 2 caracteres ou menos, não faz sentido abreviá-la, porque não reduziria a quantidade de caracteres.
 1. Se há mais de uma palavra que inicia pela mesma letra, você deve escolher não necessariamente a maior, mas a que reduzirá o maior número de caracteres. Ou seja, deve levar em conta quantas vezes cada palavra se repete para saber qual reduz mais a quantidade de caracteres. 
