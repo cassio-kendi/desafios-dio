@@ -25,7 +25,7 @@ Para verificar se o seu código está funcionando, tente os casos abaixo, além 
 |testandoando|testando|
 |agorasimassim|agorasimassim|
 |agorassimassim|agorassim|
-|abcdefghijklmnopqrstuvwxyzwxyz|abcdefghijklmnopqrstuvwxyzwxyz|
+|abcdefghijklmnopqrstuvwxyzwxyz|abcdefghijklmnopqrstuvwxyz|
 |a|a|
 |bb|b|
 |bbb|bb|
