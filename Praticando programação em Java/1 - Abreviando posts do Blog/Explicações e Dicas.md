@@ -7,6 +7,8 @@ Assim, as regras seriam:
 1. Se uma palavra tem 2 caracteres ou menos, não faz sentido abreviá-la, porque não reduziria a quantidade de caracteres.
 1. Se há mais de uma palavra que inicia pela mesma letra, você deve escolher não necessariamente a maior, mas a que reduzirá o maior número de caracteres. Ou seja, deve levar em conta quantas vezes cada palavra se repete para saber qual reduz mais a quantidade de caracteres. 
 
+Um caso especial que deve ser levado em conta é quando a palavra abreviada escolhida é uma substring de outra palavra do texto. Neste caso, deve-se tomar o cuidado de substituir somente a palavra toda, e não um pedaço dela. Observe o último exemplo dos casos de teste abaixo. Caso seu código não tenha levado isto em consideração, sua saída provavelmente será 'a. a. a a.a'.
+
 ## Mais casos de teste
 Para verificar se o seu código está funcionando, tente os casos abaixo:
 
@@ -49,4 +51,8 @@ Para verificar se o seu código está funcionando, tente os casos abaixo:
 <details> 
   <summary>Dica 8</summary>
    Se você usar um array, basta imprimir pela ordem das posições. Se usar um Map, uma sugestão é utilizar TreeMap, que consegue retornar as chaves ordenadas.
+</details>
+<details> 
+  <summary>Dica 9</summary>
+   Para substituir apenas a palavra inteira ao invés de um pedaço dela, é possível utilizar o regex '\b': https://www.regular-expressions.info/wordboundaries.html. Lembre-se de utilizar "\\b" caso decida por esta abordagem.
 </details>
