@@ -17,7 +17,7 @@ Para verificar se o seu código está funcionando, tente os casos abaixo:
 |abcd abc abc abc|abcd a. a. a.<br />1<br />a. = abc|
 |abcd abcd abc abc abc|a. a. abc abc abc<br />1<br />a. = abcd |
 |dwh t cohor dkvwcsg sqoqms b a|dwh t c. d. s. b a<br />3<br />c. = cohor<br />d. = dkvwcsg<br />s. = sqoqms |
-|aaaa aaaa a aaaaa|a. a. a aaaaa<br />1<br />a. = aaaaa|
+|aaaa aaaa a aaaaa|a. a. a aaaaa<br />1<br />a. = aaaa|
 
 ## Dicas
 <details> 
